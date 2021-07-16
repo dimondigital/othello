@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Othello">
+    <configurations>
+      <configuration name="Othello" pure-as="true" main-class="Othello" output-file="Othello.swf" output-folder="$MODULE_DIR$/out/production/Othello">
+        <dependencies target-player="11.1">
+          <entries>
+            <entry library-id="dc4857b4-ac6c-4439-ba85-249ed1785773">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.6" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="flex_sdk_4.6" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="dc4857b4-ac6c-4439-ba85-249ed1785773" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/src/graphics" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/src/graphics" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
